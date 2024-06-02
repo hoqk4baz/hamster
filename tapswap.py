@@ -1,7 +1,8 @@
 import requests
 import json
 import time
-import console
+import os
+#import console
 headers = {
     "Accept-Language": "tr-TR,tr;q=0.9",
     "Connection": "keep-alive",
@@ -34,12 +35,12 @@ api_url = 'https://api.tapswap.ai/api/player/submit_taps'
 
 while True:
     # start_time = int(time.time() * 1000)
-    console.clear()
+    os.system("clear")
     rr = requests.post(login_url, headers=headers, data=json.dumps(login_data)).json()["access_token"]
     tokens = rr
     print("Otomasyon 2 saniye sonra Başlıyor")
     time.sleep(2)
-    console.clear()
+    os.system("clear")
     while True:
         headers2 = {
             "Accept-Language": "tr-TR,tr;q=0.9",
@@ -70,7 +71,7 @@ while True:
         response = requests.post(api_url, data=json.dumps(request_data), headers=headers2).json()
         if "player" in response:
         	print(f"\r[+] {response['player']['shares']} Coin Toplandı\r", end='')
-        	time.sleep(2)
+        	time.sleep(260)
         else:
         	print("[x] Token Süresi Doldu Yenileniyor...")
         	break
