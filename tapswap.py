@@ -73,6 +73,6 @@ while True:
         	print(f"\r[+] {response['player']['shares']} Coin Toplandi\r", end='')
         	time.sleep(260)
         else:
-        	print("[x] Token Süresi Doldu Yenileniyor...")
+        	print("[x] Token Suresi Doldu Yenileniyor...")
         	break
         
