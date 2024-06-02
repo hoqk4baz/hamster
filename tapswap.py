@@ -70,7 +70,7 @@ while True:
 
         response = requests.post(api_url, data=json.dumps(request_data), headers=headers2).json()
         if "player" in response:
-        	print(f"\r[+] {response['player']['shares']} Coin Toplandı\r", end='')
+        	print(f"\r[+] {response['player']['shares']} Coin Toplandi\r", end='')
         	time.sleep(260)
         else:
         	print("[x] Token Süresi Doldu Yenileniyor...")
