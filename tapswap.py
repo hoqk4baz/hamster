@@ -35,10 +35,10 @@ api_url = 'https://api.tapswap.ai/api/player/submit_taps'
 
 while True:
     # start_time = int(time.time() * 1000)
-    os.system("clear")
+    
     rr = requests.post(login_url, headers=headers, data=json.dumps(login_data)).json()["access_token"]
     tokens = rr
-    print("Otomasyon 2 saniye sonra Başlıyor")
+    
     time.sleep(2)
     os.system("clear")
     while True:
