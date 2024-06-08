@@ -10,7 +10,7 @@ headers = {
     "Accept": "application/json",
     "Content-Type": "application/json",
     "Sec-Ch-Ua-Mobile": "?1",
-    "Authorization": "Bearer 1717116343708PAd1IgfKcPTkXFC465fcwfffbmiYRgfE9SfYQ1TSXZnBK1CzexcrIGpqCoDG9PSg6783938695",
+    "Authorization": "Bearer 1717082322917cVB0wodAvQeupS26t0B7qVqgEJm6AmS34RnF3BwnrJGZnIiyFNADHZ2fU7FpLA0Q6783938695",
     "User-Agent": "Mozilla/5.0 (Linux; Android 9; SM-N9788 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6422.82 Mobile Safari/537.36",
     "Sec-Ch-Ua-Platform": '"Android"',
     "Origin": "https://hamsterkombat.io",
